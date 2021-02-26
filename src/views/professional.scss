@@ -1,0 +1,64 @@
+
+%shared-items{
+    color: rgba(236, 234, 234, 0.562);
+    direction: ltr;
+    transform:scaleX(-1)
+}
+
+.prof-summary{
+    background-image: url('../assets/macbook-pro-129208.jpg');
+    height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+    padding-top: 10rem;
+    padding-right: 6rem;
+   .row{
+
+    .col{
+        text-align: left;
+        b{
+           color : rgba(236, 234, 234, 0.562);
+        }
+        .iconCard{
+                border-radius: 50%;
+                border-style: solid;
+                padding: 2px;
+                width: 98px;
+                height: 98px;
+                background-image: url("../assets/sena.jpg");
+                background-size: cover;
+                background-position-x: center;
+                background-position-y: center;
+                margin-left:50%;
+        }
+        p{
+           @extend %shared-items;
+        }
+
+        h3{
+           @extend %shared-items;
+       }
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+          margin: 0px;
+          padding: 0px;
+        }
+        .prof-summary{
+            padding-top: 0rem;
+            padding-right: 0rem;
+            .row{
+                .col{
+                    text-align: center;
+                }
+            }
+        }
+      }
+   }
+   
+}

@@ -1,0 +1,8 @@
+.experienceCard{
+    // <Image width={380} height={200} src={exp} />
+    background-image: url('../assets/experience.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px;
+}

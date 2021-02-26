@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Image, Card } from 'react-bootstrap'
+import { Col, Container, Row, Card } from 'react-bootstrap'
 import './experience.scss'
 export default function Experience() {
     return (

@@ -1,6 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Image, Card } from "react-bootstrap";
-import educ from "../assets/education.jpg";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import './education.scss'
 export default function Education() {
 	return (

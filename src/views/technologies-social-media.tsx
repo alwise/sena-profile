@@ -28,7 +28,6 @@ export default function ProjectsAndTools() {
                         <p><i className="fab fa-github"></i><a target='blank' href='https://github.com/alwise'>@alwise</a> </p>
                         <p><i className="fab fa-facebook-f"></i> <a target='blank' href='https://www.facebook.com/kemevor.elvis'>@kemevor.elvis</a> </p>
                         <p><i className="fab fa-twitter"></i><a target='blank' href='https://twitter.com/Sena_Alwise'>@Sena_Alwise</a> </p>
-                    
                     </Card>
                 </Col>  
             </Row>

@@ -14,6 +14,7 @@ export default function Education() {
 								Bachelor of science in Information Technology 2015 - 2019,
 								University of Education Winneba Kumasi Campus
 							</p>
+							
 						</li>
 						<li>
 							<p>

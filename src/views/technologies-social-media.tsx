@@ -11,7 +11,7 @@ export default function ProjectsAndTools() {
                         <li><b>Programming languages</b></li>
                         <p>Java ,JavaScript, TypeScript, Swift, Dart, Kotlin etc.</p>
 
-                        <li><b>Frameworks & Libries</b></li>
+                        <li><b>Frameworks & Libraries</b></li>
                         <p>Spring boot, JakartaEE, Reactjs , Angular, Vuejs, Flutter, React Native, Node.js, jQuery, Bootstrap etc. </p>
 
                         <li><b>Databases & DBMS</b></li>

@@ -17,7 +17,8 @@ export default function ProfessionalSummary() {
 								his team always delivers good products within time and budget
 								saving 20% of delivery time.
 							</p>
-							<p> <i className="far fa-address-card"></i> <b>Contact me: </b> <a href='mailto:kemevoralwise@gmail.com'>kemevoralwise@gmail.com</a> | <a href='tel:+233247417122'>+233247417122</a></p>
+							<p className="contact-1"> <i className="far fa-address-card"></i> <b>Contact me: </b> <a href='mailto:kemevoralwise@gmail.com'>kemevoralwise@gmail.com</a> | <a href='tel:+233247417122'>+233247417122</a></p>
+							<p className='contact-2'> <i className="far fa-address-card"></i> <b>Contact me: </b> <a href='mailto:kemevoralwise@gmail.com'>Email</a> | <a href='tel:+233247417122'>Call</a></p>
 							
 						</Col>
 			</Row>

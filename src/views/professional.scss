@@ -1,6 +1,6 @@
 
 %shared-items{
-    color: rgba(236, 234, 234, 0.562);
+    color: rgb(255, 255, 255);
     direction: ltr;
     transform:scaleX(-1)
 }
@@ -14,13 +14,19 @@
     background-size: cover;
     transform: scaleX(-1);
     padding-top: 10rem;
-    padding-right: 6rem;
+    padding-right: 2rem;
    .row{
 
     .col{
         text-align: left;
         b{
-           color : rgba(236, 234, 234, 0.562);
+           color : rgb(236, 234, 234);
+        }
+        .contact-2{
+            display: none;
+        }
+        .contact-1{
+            display: block;
         }
         .iconCard{
                 border-radius: 50%;
@@ -42,23 +48,43 @@
            @extend %shared-items;
        }
     }
-    @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-        [class*="col-"] {
-          width: 100%;
-          margin: 0px;
-          padding: 0px;
-        }
-        .prof-summary{
-            padding-top: 0rem;
-            padding-right: 0rem;
-            .row{
-                .col{
-                    text-align: center;
-                }
-            }
-        }
-      }
+  
    }
    
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .row{
+        padding: 5px;
+    }
+    [class*="col-"] {
+      width: 100vw;
+      margin: 0px;
+      padding: 0px;
+    }
+    .prof-summary{
+        padding:1.5rem;
+        .row{
+            .col{
+                text-align: center;
+                width: 100vw;
+
+                b{
+                    color : rgb(236, 234, 234);
+                 }
+                 p{
+                     text-align: justify;
+                 }
+                 .contact-2{
+                     display: block;
+                 }
+                 .contact-1{
+                     display: none;
+                 }
+            }
+        }
+    }
+  }

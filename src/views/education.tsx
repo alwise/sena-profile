@@ -4,9 +4,8 @@ import './education.scss'
 export default function Education() {
 	return (
 		<Container className="container-fluid container justify-content-md-center">
-            	
+         <Col lg={12}><h3>Education & Certifications</h3></Col>
 			<Row className='justify-content-md-center'>
-                <Col lg={12}><h3>Education & Certifications</h3></Col>
 				<Col className="col" lg={8}>
 					<ul>
 						<li>
@@ -29,8 +28,8 @@ export default function Education() {
 					</ul>
 				</Col>
 
-				<Col className="col" lg={4}>
-					<Card className="card educationCard"/>
+				<Col className="col" sm={"12"} md={"12"}  lg={"4"} xl={"4"}>
+					<Card className="card educationCard"></Card>
 				</Col>
 			</Row>
 		</Container>

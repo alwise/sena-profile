@@ -69,6 +69,7 @@ export default function Experience() {
                 <Col lg={12}>
                     <b>Sample projects</b>
                     <ul>
+                        <li>Payroll software(Reactjs, Spring boot, PostgreSQL and AWS)</li>
                         <li>School management (Desktop 2017)</li>
                         <li>Web based Stock management</li>
                         <li>Bulk SMS mobile app</li>
